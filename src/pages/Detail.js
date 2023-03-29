@@ -7,7 +7,7 @@ const Detail = () => {
     const { data , isFetched} = useContext(DataContext)
     return (
         <>
-            <div className='container'>
+            <div className='flex flex-col items-center justify-center'>
                 <div className='mt-5'>
                     <h1 className='text-center text-lg lg:text-3xl'>Korona Virüsü Detay Tablosu</h1>
                     <h2 className='text-center text-md lg:text-lg text-gray-700'>Güncel kaynaklar ile Ülkelerin Koronavirüs verilerine erişebilirsiniz</h2>
